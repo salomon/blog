@@ -1,0 +1,11 @@
+<div class="container">
+
+  <h1><%= current_user.id %></h1>
+
+<form action="/post" method="post">
+<input type="text" name="title" placeholder="title"><br>
+<textarea rows="4" cols="40" name="text"></textarea><br><br>
+<input type="submit" value="Submit Post">
+</form>
+
+</div>

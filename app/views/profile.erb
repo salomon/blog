@@ -1,0 +1,19 @@
+<div class="container">
+
+<% if logged_in? == true %>
+
+<% if current_user.id == @user.id %>
+  
+  <h1><%=current_user.email%></h1><br><br>
+  <h2><a href="/post/create" class='button'>Create New Post</a></h2>
+
+
+
+  <h2>Crazy</h2>  
+
+<% end %>
+
+ 
+</div>
+
+ 

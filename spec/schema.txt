@@ -1,0 +1,37 @@
+
+
+post
+
+belongs_to :user
+has_and_belongs_to_many :tags
+
+title
+text
+user_id
+
+
+posts_tags
+
+post_id
+tag_id
+
+
+
+tag
+
+has_and_belongs_to_many :posts
+
+name
+
+
+
+
+
+user
+
+has_many :posts
+
+name
+email
+password
+posts
